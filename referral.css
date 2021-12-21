@@ -1,0 +1,105 @@
+body{
+    margin: 0;  
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+header{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #F2E4C1;
+    width: 100vw;
+    background-color: black;
+    padding-left: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.refer-section{
+     width: 80vw;
+     margin: 35px auto;
+}
+.refer-section-text{
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.7);
+    margin-top: -10px;
+}
+
+.invitation-center{
+    margin-top: 20px;
+}
+
+.referral-card{
+    background-color: #F2E4C1;
+    margin-right: 15px;
+    padding: 10px 15px 0px;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85em; 
+}
+.referral-card-text{
+    margin-left: 15px;
+}
+.referral-card p{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 0.8rem;
+    margin-top: -10px;
+}
+.refer-container{
+    width: 80vw;
+    margin: 0 auto;
+}
+.referral{
+    background-color: #fffefb;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding: 10px 15px ;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 6px 6px 0px 0px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.referral-text{
+    width: 50vw;
+}
+.referral-text p{
+    font-size: 0.8em;
+    text-align: left;
+    margin-top: -10px;
+}
+.referral-section{
+    background-color: #ebeae7;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    padding: 10px 15px ;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 0px 0px 6px 6px;
+}
+.referral-btn{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #f5e3b5;
+    cursor: pointer;
+}
+.referral-section p{
+    font-size: 0.8em;
+}
+.refer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 0.05em;
+}
+.refer p{
+    color: rgba(0, 0, 0, 0.50);
+}
+

@@ -1,0 +1,139 @@
+/*Css for main payment html page*/
+body{
+    margin: 0;
+}
+.body{
+    background-color: #F2E4C1;
+}
+header{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #F2E4C1;
+    background-color: black;
+    padding-left: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.payment-section{
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 6vh 10vw 5vh;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.amount{
+    height: 8vh;
+    width: 70vw;
+    font-size: 2.0em;
+}
+.amount-text{
+ line-height: 2.3em;
+}
+.amount-text span{
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.75);
+}
+.amount-stn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.75em;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.pay-btn{
+    width: 62vw;
+    height: 6vh;
+   text-align: center;
+   margin-left:6vw;
+   margin-top: 5vh;
+   border-radius: 4px;
+   background-color: black;
+   color: #F2E4C1;
+   cursor: pointer;
+   border: none;
+}
+
+.pay-btn:hover{
+    border: 1px solid #ffc942;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.pay-text-section{
+    line-height: 0.7em;
+    text-align: center;
+}
+.pay-text{
+    color: #f8d785;
+    font-weight: 800;
+    font-size: 0.9em;
+    text-align: center;
+}
+/*CSS for payment options html page*/
+.pay{
+    background-color: #F2E4C1;
+}
+.payment-text{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    line-height: 0.5em;
+    font-size: 0.8em;
+}
+.payment-options{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.payment-method{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(138, 136, 128);
+}
+.payment-method:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #F2E4C1;
+}
+.payment-method i{
+    margin-right: 30px;
+    font-size: 1.5em;
+}
+.footer{
+    color: #ffffff;
+    background-color: #000000;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    line-height: 0.3em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.bitcoin-section{
+    margin-bottom: 20vh;
+}
+.footer-btn{
+    width: 60px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #F2E4C1;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}

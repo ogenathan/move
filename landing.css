@@ -1,0 +1,68 @@
+body{
+    background-color: #F2E4C1;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #F2E4C1;
+    width: 100vw;
+    background-color: black;
+    padding-left: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.landing-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    margin-top: 20px;
+}
+
+.container{
+    background-color: black;
+    color: #F2E4C1;
+    height: 32vh;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container h1{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.container p{
+    color: rgb(151, 138, 138);
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+.btn{
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    color: black;
+    background-color:white;
+    margin-top: 5px;
+    border-top-right-radius: 50%;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    font-size: 1.4em;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

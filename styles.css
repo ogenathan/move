@@ -1,0 +1,78 @@
+body{
+    background-color: #F2E4C1;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #F2E4C1;
+    background-color: black;
+    padding-left: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.title p{
+    color: rgb(73, 70, 70);
+    margin-top: -15px;
+    font-size: 0.9em;
+}
+
+.signup-section{
+    width: 85vw;
+    margin: 10vh auto;
+    padding-left: 30px;
+    align-self: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+}
+.labels{
+    font-weight: 400;
+    margin-top: 10px;
+}
+.inputs, select{
+    width: 70vw;
+    line-height: 2rem;
+    margin-top: 5px;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+    padding: 7px;
+}
+
+.submit{
+    width: 70vw;
+   outline: none;
+   cursor: pointer;
+   margin: 30px auto 0px;
+   text-align: center;
+   padding: 10px 45px;
+   margin-left: -1px;
+   color:white;
+   background-color:black;
+   border-radius: 5px;
+   border: none;
+   font-weight: 500;
+}
+
+.login-note{
+    font-weight: 400;
+    font-size: 0.9em;
+    
+}
+
+.login-note a{
+    text-decoration: none;
+    color: rgb(23, 23, 206);
+    font-weight: 900;
+}
